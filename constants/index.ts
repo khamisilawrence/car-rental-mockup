@@ -70,7 +70,7 @@ export const fuels = [
   },
 ];
 
-export const footerLinks = [
+const footerLinks = [
   {
     title: "About",
     links: [
@@ -98,4 +98,5 @@ export const footerLinks = [
       { title: "Facebook", url: "/" },
     ],
   },
-];
+]
+export default footerLinks;
