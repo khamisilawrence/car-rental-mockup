@@ -21,7 +21,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer__links">
-          {footerLinks.map((Link:any) => (
+          {footerLinks && footerLinks.map((Link:any) => (
             <div key={Link.title} className="footer__link">
               <h3 className="font-bold">{Link.title}</h3>
               {Link.links.map((item:any) => (
