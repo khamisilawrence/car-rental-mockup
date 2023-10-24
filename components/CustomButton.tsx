@@ -1,9 +1,20 @@
-import React from 'react'
+"use client";
+
+import Image from "@/node_modules/next/image";
 
 const CustomButton = () => {
   return (
-    <div>CustomButton</div>
-  )
-}
+    <button 
+    disabled={false} 
+    type={"button"}
+    className={`custom-btn`}
+    onClick={() => {}}
+    >
+      <span className={`flex-1`}>
+        title
+      </span>
+    </button>
+  );
+};
 
-export default CustomButton
+export default CustomButton;
