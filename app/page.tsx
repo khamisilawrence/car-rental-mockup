@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import { CustomFilter, Hero, SearchBar } from "@/components";
 
 export default function Home() {
   return (
