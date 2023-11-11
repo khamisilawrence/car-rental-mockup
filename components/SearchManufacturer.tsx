@@ -32,7 +32,15 @@ const SearchManufacturer = ({
             onChange={(e) => setQuery(e.target.value)}
           />
 
-          <Transition as={Fragment}>.</Transition>
+          <Transition
+            as={Fragment}
+            leave="Transition ease-in duration-100"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+            afterLeave={() => setQuery("")}
+          >
+            <Combobox.Options></Combobox.Options>
+          </Transition>
         </div>
       </Combobox>
     </div>
