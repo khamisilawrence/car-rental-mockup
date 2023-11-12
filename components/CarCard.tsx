@@ -10,6 +10,8 @@ interface CarCardProps {
 }
 
 const CarCard = ({ car }: CarCardProps) => {
+  const { city_mpg, year, make, model, transmission, drive } = car;
+
   return <div>CarCard</div>;
 };
 
