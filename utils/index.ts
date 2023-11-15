@@ -1,4 +1,4 @@
-import { FilterProps } from "@/types";
+import { CarProps, FilterProps } from "@/types";
 import { json } from "stream/consumers";
 
 export async function fetchCars(filters: FilterProps) {
