@@ -1,6 +1,8 @@
 "use client";
 
-const ShowMore = () => {
+import { useRouter } from "next/navigation";
+
+const ShowMore = ({ pageNumber, isNext }) => {
   return <div></div>;
 };
 
