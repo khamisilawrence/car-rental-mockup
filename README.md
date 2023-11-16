@@ -17,4 +17,6 @@ A single-page UI mockup of a car rental website.
 <br />
 
 # Credits
-This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- This project was completed as practice in accordance with guidance provided by a 206-minute [YouTube tutorial](https://youtu.be/pUNSHPyVryU?) uploaded by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) on the 9th of June 2023, titled “Build and Deploy a Modern Next.js 13 Application | React, Next JS 13, TypeScript, Tailwind CSS”.
+- The assets used in this project were sourced from [adrianhajdin's project_next13_car_showcase Github repository](https://github.com/adrianhajdin/project_next13_car_showcase).
+- This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
