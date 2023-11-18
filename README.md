@@ -1,6 +1,6 @@
 # [Car Rental UI Mockup](https://car-showcase-prototype.vercel.app/)
 <a target="_blank" rel="noopener" href="https://car-showcase-prototype.vercel.app/">
-  <img alt="Screenshot of Live Site" src="https://next-js-portfolio-alpha-gold.vercel.app/images/projects/project-carhub.png" />
+  <img alt="Screenshot of Live Site" src="https://khamisi-lawrence-portfolio.vercel.app/images/projects/project-carhub.png" />
 </a>
 A single-page UI mockup of a car rental website.
 
